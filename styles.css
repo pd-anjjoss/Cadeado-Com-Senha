@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.number-button {
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    margin: 0 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#verify-button {
+    width: 200px;
+    height: 80px;
+    font-size: 28px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#result-box {
+    margin-top: 30px;
+    display: none;
+}
+
+#result-box img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+}
+
+#error-message {
+    font-size: 28px;
+    color: red;
+    margin-top: 20px;
+    display: none;
+}

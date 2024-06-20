@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadeado Com Senha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadeado Com Senha</h1>
+        <div id="code-input">
+            <button class="number-button" onclick="changeDigit(1)">0</button>
+            <button class="number-button" onclick="changeDigit(2)">0</button>
+            <button class="number-button" onclick="changeDigit(3)">0</button>
+            <button class="number-button" onclick="changeDigit(4)">0</button>
+            <button id="verify-button" onclick="checkCode()">Verificar</button>
+        </div>
+        <div id="result-box"></div>
+        <div id="error-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
